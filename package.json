@@ -1,0 +1,15 @@
+{
+  "name": "weald-protocol-showcase",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Public read-only primitives and architecture notes for WEALD liquidity automation.",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/range-math.js && node --check src/position-status.js && node --check src/route-attribution.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
